@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="reward_sports">Reward Sports</string>
+    <string name="reward_kids">Reward Kids</string>
+    <string name="reward_music">Reward Music</string>
+    <string name="reward_news">Reward News</string>
+    <string name="reward_movies">Reward Movies</string>
+    <string name="response_text">Response : </string>
+</resources>
