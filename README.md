@@ -3,13 +3,17 @@
 A sample application to display rewards for eligible customers based on different channel channel descriptions.
 
 The app has two services.
-1. Rewards
-2. Eligibility
 
-Rewards: This service returns rewards based on user channel subscriptions.
-Eligibility: This service checks if a certain user is applicable for the rewards.
+* Rewards: This service returns rewards based on user channel subscriptions.
+* Eligibility: This service checks if a certain user is applicable for the rewards.
 
 Both of the services are mocked to demonstrate unit and integration tests.
+
+![Alt text](/assets/eligilbility-service.png?raw=true "Eligibility Service")
+
+![Alt text](/assets/reward-service.png?raw=true "Reward Serivice")
+
+![Alt text](/assets/service-architecture.png?raw=true "Service architecture")
 
 An sample application demonstrating how to use Dagger 2.0, retrofit, mocking services and unit/integration tests.
 
