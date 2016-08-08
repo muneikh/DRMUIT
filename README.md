@@ -13,8 +13,28 @@ Both of the services are mocked to demonstrate unit and integration tests.
 
 An sample application demonstrating how to use Dagger 2.0, retrofit, mocking services and unit/integration tests.
 
-- The app contains both Unit (Robolectric) and Integration(Espresso) example tests.
-- Used Dagger 2.0 and ButterKnife for dependency injection
-- Used Java8 and Lambda annotations
-- Used Retrofit for network requests
-- Used Timber as a logging library
+Features
+--------
+
+* The app contains both Unit (Robolectric) and Integration(Espresso) example tests.
+* Used Dagger 2.0 and ButterKnife for dependency injection
+* Used Java8 and Lambda annotations
+* Used Retrofit for network requests
+* Used Timber as a logging library
+
+License
+-------
+
+    Copyright 2013 Jake Wharton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
