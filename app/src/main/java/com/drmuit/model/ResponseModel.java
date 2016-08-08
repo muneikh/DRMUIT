@@ -1,4 +1,4 @@
-package com.sample.model;
+package com.drmuit.model;
 
 public class ResponseModel {
     private Eligibility eligibility;

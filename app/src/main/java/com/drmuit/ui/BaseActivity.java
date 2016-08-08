@@ -1,4 +1,4 @@
-package com.sample.ui;
+package com.drmuit.ui;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

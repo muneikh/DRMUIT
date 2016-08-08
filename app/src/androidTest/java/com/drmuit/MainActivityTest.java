@@ -1,10 +1,10 @@
-package com.sample;
+package com.drmuit;
 
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.suitebuilder.annotation.LargeTest;
 
-import com.sample.ui.MainActivity;
+import com.drmuit.ui.MainActivity;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -15,10 +15,10 @@ import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.assertion.ViewAssertions.matches;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 import static android.support.test.espresso.matcher.ViewMatchers.withText;
-import static com.sample.util.Constant.REWARD_MOVIES;
-import static com.sample.util.Constant.REWARD_MUSIC;
-import static com.sample.util.Constant.REWARD_NOT_APPLICABLE;
-import static com.sample.util.Constant.REWARD_SPORTS;
+import static com.drmuit.util.Constant.REWARD_MOVIES;
+import static com.drmuit.util.Constant.REWARD_MUSIC;
+import static com.drmuit.util.Constant.REWARD_NOT_APPLICABLE;
+import static com.drmuit.util.Constant.REWARD_SPORTS;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest

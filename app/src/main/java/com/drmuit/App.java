@@ -1,4 +1,4 @@
-package com.sample;
+package com.drmuit;
 
 import android.app.Application;
 

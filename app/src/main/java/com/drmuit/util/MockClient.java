@@ -1,10 +1,10 @@
-package com.sample.util;
+package com.drmuit.util;
 
 import android.net.Uri;
 import android.support.annotation.NonNull;
 
-import com.sample.model.Eligibility;
-import com.sample.model.Reward;
+import com.drmuit.model.Eligibility;
+import com.drmuit.model.Reward;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -15,10 +15,10 @@ import retrofit.client.Response;
 import retrofit.mime.TypedByteArray;
 import timber.log.Timber;
 
-import static com.sample.util.Constant.REWARD_MOVIES;
-import static com.sample.util.Constant.REWARD_MUSIC;
-import static com.sample.util.Constant.REWARD_NOT_APPLICABLE;
-import static com.sample.util.Constant.REWARD_SPORTS;
+import static com.drmuit.util.Constant.REWARD_MOVIES;
+import static com.drmuit.util.Constant.REWARD_MUSIC;
+import static com.drmuit.util.Constant.REWARD_NOT_APPLICABLE;
+import static com.drmuit.util.Constant.REWARD_SPORTS;
 
 public class MockClient implements Client {
 

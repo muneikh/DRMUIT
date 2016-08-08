@@ -1,11 +1,11 @@
-package com.sample;
+package com.drmuit;
 
-import com.sample.model.Eligibility;
-import com.sample.model.Reward;
-import com.sample.util.ChannelType;
-import com.sample.util.EligibilityType;
-import com.sample.util.MockClient;
-import com.sample.util.Utility;
+import com.drmuit.model.Eligibility;
+import com.drmuit.model.Reward;
+import com.drmuit.util.ChannelType;
+import com.drmuit.util.EligibilityType;
+import com.drmuit.util.MockClient;
+import com.drmuit.util.Utility;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -19,11 +19,11 @@ import retrofit.client.Header;
 import retrofit.client.Request;
 import retrofit.client.Response;
 
-import static com.sample.util.Constant.BASE_URL;
-import static com.sample.util.Constant.REWARD_MOVIES;
-import static com.sample.util.Constant.REWARD_MUSIC;
-import static com.sample.util.Constant.REWARD_NOT_APPLICABLE;
-import static com.sample.util.Constant.REWARD_SPORTS;
+import static com.drmuit.util.Constant.BASE_URL;
+import static com.drmuit.util.Constant.REWARD_MOVIES;
+import static com.drmuit.util.Constant.REWARD_MUSIC;
+import static com.drmuit.util.Constant.REWARD_NOT_APPLICABLE;
+import static com.drmuit.util.Constant.REWARD_SPORTS;
 import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 

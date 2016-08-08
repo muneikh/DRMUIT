@@ -18,7 +18,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.codingchallenge"
+        applicationId "com.drmuit"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1
@@ -35,6 +35,10 @@ android {
 
     testOptions {
         unitTests.returnDefaultValues = true
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
     }
 }
 

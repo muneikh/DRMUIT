@@ -1,7 +1,7 @@
-package com.sample;
+package com.drmuit;
 
 
-import com.sample.ui.MainActivity;
+import com.drmuit.ui.MainActivity;
 
 import javax.inject.Singleton;
 

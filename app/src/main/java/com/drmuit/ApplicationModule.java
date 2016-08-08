@@ -1,11 +1,11 @@
-package com.sample;
+package com.drmuit;
 
 import android.content.Context;
 
-import com.sample.manager.HttpManager;
-import com.sample.service.ApiService;
-import com.sample.util.Constant;
-import com.sample.util.MockClient;
+import com.drmuit.manager.HttpManager;
+import com.drmuit.service.ApiService;
+import com.drmuit.util.Constant;
+import com.drmuit.util.MockClient;
 
 import javax.inject.Singleton;
 

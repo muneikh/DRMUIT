@@ -1,4 +1,4 @@
-package com.sample.util;
+package com.drmuit.util;
 
 public enum ChannelType {
     SPORTS(1), KIDS(2), MUSIC(3), NEWS(4), MOVIES(5), INVALID(-1);

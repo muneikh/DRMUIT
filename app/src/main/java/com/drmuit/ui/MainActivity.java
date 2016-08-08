@@ -1,17 +1,17 @@
-package com.sample.ui;
+package com.drmuit.ui;
 
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.sample.App;
-import com.sample.R;
-import com.sample.manager.HttpManager;
-import com.sample.model.ResponseModel;
-import com.sample.service.ApiService;
-import com.sample.util.ChannelType;
-import com.sample.util.EligibilityType;
+import com.drmuit.App;
+import com.drmuit.R;
+import com.drmuit.manager.HttpManager;
+import com.drmuit.model.ResponseModel;
+import com.drmuit.service.ApiService;
+import com.drmuit.util.ChannelType;
+import com.drmuit.util.EligibilityType;
 
 import javax.inject.Inject;
 

@@ -1,7 +1,7 @@
-package com.sample.service;
+package com.drmuit.service;
 
-import com.sample.model.Eligibility;
-import com.sample.model.Reward;
+import com.drmuit.model.Eligibility;
+import com.drmuit.model.Reward;
 
 import retrofit.http.GET;
 import retrofit.http.Query;

@@ -1,4 +1,4 @@
-package com.sample.model;
+package com.drmuit.model;
 
 import com.google.gson.Gson;
 

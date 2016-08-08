@@ -1,9 +1,9 @@
-package com.sample.manager;
+package com.drmuit.manager;
 
-import com.sample.model.Eligibility;
-import com.sample.model.ResponseModel;
-import com.sample.model.Reward;
-import com.sample.service.ApiService;
+import com.drmuit.model.Eligibility;
+import com.drmuit.model.ResponseModel;
+import com.drmuit.model.Reward;
+import com.drmuit.service.ApiService;
 
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;

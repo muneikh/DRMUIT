@@ -1,4 +1,4 @@
-package com.sample.util;
+package com.drmuit.util;
 
 public class Constant {
     public static final String BASE_URL = "https://sample.com";
